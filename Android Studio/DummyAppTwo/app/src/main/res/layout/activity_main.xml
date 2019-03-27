@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:textColor="#ff0000"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:textColorHint="#000000"
+            android:id="@+id/edtMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:textColor="#ff0000"
+            android:textStyle="bold|italic"
+            android:layout_marginBottom="10sp"
+            android:textSize="20sp"
+            android:textColorHint="#000000"
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_marginBottom="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginRight="10sp"
+                android:textSize="20sp"
+                android:textStyle="italic|bold"
+                android:background="#b8c4ff"
+                android:id="@+id/btnOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Log in " />
+
+            <Button
+                android:textSize="20sp"
+                android:textStyle="italic|bold"
+                android:background="#b8c4ff"
+                android:id="@+id/btnTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Register" />
+
+        </LinearLayout>
+        <TextView
+            android:background="#010aff"
+            android:textSize="100sp"
+            android:textColor="#333"
+            android:textStyle="bold|italic"
+            android:id="@+id/tvOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Statement" />
+    </LinearLayout>
+</ScrollView>

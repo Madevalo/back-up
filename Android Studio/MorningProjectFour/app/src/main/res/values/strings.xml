@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Morning Project Four</string>
+    <string name="btnOne">register</string>
+    <string name="btnTwo">log in</string>
+</resources>
